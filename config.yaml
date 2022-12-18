@@ -1,0 +1,18 @@
+#""" 한국투자증권을 통한 자동 주식거래 환경"""
+
+#홈페이지에서 API서비스 신청시 받은 Appkey, Appsecret 값 설정
+APP_KEY: "PSW3FdfdacJ0PeFAractpH9fidPZUOGN6FsJ"
+APP_SECRET: "kqcGPtJvbnElLCurorL76OmIMWPhpuh6IlsVFrGtkELXP1hy2G6wTGL1/EZ1WffSXrc/Ui0KHE7Wa3qXvaoPnUmjJgVqkkSFjKPHe4z/WVx1hHISlqIu9LApe1vgYyEF9Dy21+aNC5cTRtJe37VlXx3ei8dOwSKw2yOMYgcbt7ur5E28sNE="
+
+#계좌번호 앞 8자리
+CANO: "63614390"
+#계좌번호 뒤 2자리
+ACNT_PRDT_CD: "01"
+
+#실전투자
+URL_BASE: "https://openapi.koreainvestment.com:9443"
+#모의투자
+# URL_BASE: "https://openapivts.koreainvestment.com:29443"
+
+#디스코드 웹훅 URL
+DISCORD_WEBHOOK_URL: "https://discordapp.com/api/webhooks/1050654223106318397/qKbTZ6qR_ehBWu2MbMt16HkMGVvB31P9sLGPQXejHgwbn942N9iGqRZRoIpzZvQeHb32"
